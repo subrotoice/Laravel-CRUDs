@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('products', ProductController::class);
+
+Route::get('/test/{name}/{id}', function($name, $id) {
+    echo "Good " . $name. $id;
+});
