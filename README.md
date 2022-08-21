@@ -16,7 +16,7 @@ https://gist.github.com/subrotoice/e0738c40dae8c4ad4ce1c5786e6a1330
 
     public function index()  // Display a listing of the resource, GET
     {
-        $products = Product::all();
+        $products = Product::all(); // in 3.CRUD_Mini_Product
         return view('products.index', compact('products'));
     }
 
