@@ -13,6 +13,7 @@ https://gist.github.com/subrotoice/e0738c40dae8c4ad4ce1c5786e6a1330
 10. You are good to go, php artisan serve
 
 ## Controller
+https://github.com/subrotoice/Laravel-CRUDs-3Projects/blob/main/3.CRUD_Mini_Product/app/Http/Controllers/ProductController.php
 
     public function index()  // Display a listing of the resource, GET
     {
